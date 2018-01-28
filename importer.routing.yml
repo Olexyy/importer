@@ -1,0 +1,8 @@
+importer.import:
+  path: '/import/{source}'
+  defaults:
+    source: ''
+    _title: 'Import'
+    _controller: '\Drupal\importer\Controller\ImporterController::import'
+  requirements:
+    _permission: 'access content'
